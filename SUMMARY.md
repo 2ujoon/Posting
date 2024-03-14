@@ -5,3 +5,5 @@
   * [DevOps와 CI/CD](jenkins-ci-cd-pipeline/devops-ci-cd/README.md)
     * [Waterfall vs Agile](jenkins-ci-cd-pipeline/devops-ci-cd/waterfall-vs-agile.md)
     * [Cloud Native Application의 구성 요소](jenkins-ci-cd-pipeline/devops-ci-cd/cloud-native-application.md)
+    * [CI / CD Workflow](jenkins-ci-cd-pipeline/devops-ci-cd/ci-cd-workflow.md)
+    * [Jenkins 소개](jenkins-ci-cd-pipeline/devops-ci-cd/jenkins.md)

@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/image (4).png
+coverY: 0
+---
+
 # Cloud Native Application의 구성 요소
 
 ##

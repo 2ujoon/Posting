@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/image.png
+coverY: 0
+---
+
 # Waterfall vs Agile
 
 ## 개발 방법론
@@ -22,3 +27,5 @@
 
 * 클라우드 네이티브 아키텍처의 등장
   * DevOps, MSA, 가상화, 클라우드의 보편화가 진행 중
+
+##
