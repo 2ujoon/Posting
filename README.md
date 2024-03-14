@@ -2,4 +2,4 @@
 
 ## CI / CD
 
-[ci-cd-deepdive](ci-cd-deepdive/ "mention")
+[jenkins-ci-cd-pipeline](jenkins-ci-cd-pipeline/ "mention")
