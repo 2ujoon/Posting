@@ -33,7 +33,11 @@ coverY: 0
 
 ## Jenkins 파이프라인
 
+<div data-full-width="false">
+
 <figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 * 단위 테스트, 통합 테스트를 통과해야 인수 테스트 단계로 넘어감
 * UAT 환경에서 검수 완료 후 운영 환경으로 배포

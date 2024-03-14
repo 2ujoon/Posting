@@ -11,21 +11,29 @@
 ## 설치
 
 * [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/)
-*   Windows, Mac 및 여러 Linux Distro 에서 Docker Desktop 설치를 지원한다.
+*   Windows, Mac 및 여러 Linux Distro 에서 Docker Desktop 의설치를 지원한다.
 
-    이 게시물은   Ubuntu 22.04 CLI 환경에서 설치하므로, Docker Engine 설치에 대해 설명한다.
+    이 게시물에서는 Ubuntu 22.04 CLI 환경에서 작업하므로 Docker Engine 을 설치한다.
 
 ### unofficial 또는 이전 버전 삭제 (필요 시)
 
-```
+```bash
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 ```
 
 
 
-### Docker Desktop, Docker apt repository, 수동 또는 스크립트를 다운 받아 설치
+### 설치  방법
 
-* 이 경우에는 apt repository(apt-get) 를 이용하여 설치한다.
+* Docker Desktop
+* Docker apt repository
+* 수동 설치
+* 스크립트를 다운 받아 설치
+
+
+
+### apt repository(apt-get) 를 이용한 설치
+
 * Docker apt repository 설정
 
 ```bash
@@ -44,9 +52,7 @@ echo \
 sudo apt-get update
 ```
 
-
-
-### 최신 버전 설치
+* 최신 버전 설치
 
 ```sh
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
@@ -85,3 +91,11 @@ Share images, automate workflows, and more with a free Docker ID:
 For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
+
+
+
+## 유의할 점
+
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+* 도커 설치 환경에서 ufw 또는 firewalld 와 같은 방화벽 툴을 사용 중이라면, 노출되는 도커 컨테이너의 포트는 방화벽 규칙을 우회할 수 있다.
