@@ -35,7 +35,7 @@ docker run -d \
     jenkins/jenkins:lts-jdk17
 ```
 
-* docker ps 명령어로 정상적으로 컨테이너가 올라갔는지 확인한다.
+* [`docker ps`](../appendix/docker.md#docker-ps) 명령어로 정상적으로 컨테이너가 올라갔는지 확인한다.
 
 ```bash
 CONTAINER ID   IMAGE                       COMMAND                  CREATED          STATUS          PORTS                                                                                      NAMES
@@ -47,7 +47,7 @@ CONTAINER ID   IMAGE                       COMMAND                  CREATED     
 ## Jenkins 활성화
 
 * Docker 컨테이너가 정상적으로 올라갔다면 `http://PUBLIC-IP:8080` 으로 접속할 수 있다.
-* 컨테이너에 JDK가 존재해야 정상적으로 구동한다.
+* 컨테이너에 **JDK가 존재해야 정상적으로 구동**한다.
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 

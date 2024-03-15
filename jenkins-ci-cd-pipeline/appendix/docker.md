@@ -12,10 +12,6 @@ description: 각 명령어의 --help 옵션 출력 내용을 옮겨둠
 
 * 레지스트리에서 컨테이너를 실행할 이미지를 다운로드 한다.
 
-<!---->
-
-* `docker image pull` 의 축약형
-
 
 
 ### 시놉시스
@@ -161,13 +157,43 @@ description: 각 명령어의 --help 옵션 출력 내용을 옮겨둠
 
 <details>
 
+<summary>docker ps</summary>
+
+* 컨테이너 목록을 출력한다.
+
+
+
+### 시놉시스
+
+`docker ps [OPTIONS]`
+
+
+
+### 옵션
+
+```
+-a, --all             Show all containers (default shows just running)
+-f, --filter filter   Filter output based on conditions provided
+    --format string   Format output using a custom template:
+                      'table':            Print output in table format with column headers (default)
+                      'table TEMPLATE':   Print output in table format using the given Go template
+                      'json':             Print in JSON format
+                      'TEMPLATE':         Print output using the given Go template.
+                      Refer to https://docs.docker.com/go/formatting/ for more information about formatting output with templates
+-n, --last int        Show n last created containers (includes all states) (default -1)
+-l, --latest          Show the latest created container (includes all states)
+    --no-trunc        Don't truncate output
+-q, --quiet           Only display container IDs
+-s, --size            Display total file sizes
+```
+
+</details>
+
+<details>
+
 <summary>docker logs</summary>
 
 * 컨테이너의 로그를 가져온다.
-
-<!---->
-
-* `docker container logs` 의 축약형
 
 
 
@@ -188,6 +214,27 @@ description: 각 명령어의 --help 옵션 출력 내용을 옮겨둠
 -t, --timestamps     Show timestamps
     --until string   Show logs before a timestamp (e.g. "2013-01-02T13:23:37Z") 
                      or relative (e.g. "42m" for 42 minutes)
+```
+
+</details>
+
+<details>
+
+<summary>docker exec</summary>
+
+* 실행 중인 컨테이너에 명령어를 실행한다.
+
+
+
+### 시놉시스
+
+`docker exec [OPTIONS] CONTAINER COMMAND [ARG ... ]`
+
+
+
+### 옵션
+
+```
 ```
 
 </details>
