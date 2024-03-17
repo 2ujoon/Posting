@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/image (12).png
+cover: ../../.gitbook/assets/image (12) (1).png
 coverY: 0
 ---
 
@@ -17,7 +17,7 @@ coverY: 0
 
 ## Jenkins 를 이용해 도커로 배포한다면
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 애플리케이션 소스 커밋
 2. Jenkins 에서 코드를 지속적으로 빌드 및 패키징

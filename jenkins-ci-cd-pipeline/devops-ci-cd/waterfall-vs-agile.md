@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/image (4).png
+cover: ../../.gitbook/assets/image (12).png
 coverY: 0
 ---
 
@@ -7,7 +7,7 @@ coverY: 0
 
 ## 개발 방법론
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>waterfall</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>waterfall</p></figcaption></figure>
 
 ### Waterfall
 
