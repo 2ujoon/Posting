@@ -15,6 +15,7 @@
     * [Maven 프로젝트 생성](jenkins-ci-cd-pipeline/jenkins-ci-cd/maven.md)
     * [CI / CD 작업을 위한 Tomcat 서버 연동](jenkins-ci-cd-pipeline/jenkins-ci-cd/ci-cd-tomcat.md)
     * [PollSCM 설정을 통한 지속적인 파일 업데이트](jenkins-ci-cd-pipeline/jenkins-ci-cd/pollscm.md)
+    * [SSH + Docker 가 설치되어 있는 VM(컨테이너) 사용하기](jenkins-ci-cd-pipeline/jenkins-ci-cd/ssh-+-docker-vm.md)
   * [Appendix](jenkins-ci-cd-pipeline/appendix/README.md)
     * [Docker 설치(Ubuntu 22.04)](jenkins-ci-cd-pipeline/appendix/docker-ubuntu-22.04.md)
     * [Docker 명령어 참고](jenkins-ci-cd-pipeline/appendix/docker.md)

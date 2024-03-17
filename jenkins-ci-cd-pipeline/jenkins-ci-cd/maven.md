@@ -38,7 +38,7 @@ description: Maven 프로젝트에 대한 Item 생성
   * compile : 컴파일(빌드) 하겠다.
   *   package : pom.xml 의 설정에 따라서 패키지 파일을 만들겠다.
 
-      <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

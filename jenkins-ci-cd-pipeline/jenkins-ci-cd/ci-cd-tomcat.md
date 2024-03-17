@@ -6,7 +6,7 @@ description: 빌드 후 도커 호스트에 설치된 톰캣 서버로 빌드 �
 
 플러그인 설치
 
-<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Deploy to container 플러그인 설치
 

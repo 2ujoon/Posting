@@ -1,0 +1,88 @@
+---
+description: Jenkins 빌드 결과물을 로컬이 아닌 다른 서버로의 복사
+---
+
+# SSH + Docker 가 설치되어 있는 VM(컨테이너) 사용하기
+
+## 개요
+
+### 준비사항
+
+* SSH Server 설치
+
+```bash
+# ssh server 설치
+docker pull edowon0623/docker
+# m1 mac 의 경우
+# docker pull edowon0623/docker-server:m1
+
+docker run --privileged -itd \
+        --name docker-server \
+        -p 10022:22 -p 8081:8080 \
+        -e container=docker \
+        -v /sys/fs/cgroup:/sys/fs/cgroup \
+        edowon0623/docker:latest \
+        /usr/sbin/init
+        
+<< 'COMMENT'
+# 또는
+docker run -itd \
+        --name docker-server \
+        -p 10022:22 -e container=docker \
+        --tmpfs /run \
+        --tmpfs /tmp \
+        -v /sys/fs/cgroup:/sys/fs/cgroup:ro \
+        -v /var/run/docker.sock:/var/run/docker.sock \
+        edowon0623/docker:latest \
+        /usr/sbin/init
+COMMENT
+
+# ssh server 동작 확인 (root / P@ssw0rd)
+ssh root@localhost -p 10022
+```
+
+
+
+* 컨테이너 1 - Jenkins
+* 컨테이너 2 - docker 가 설치되어 있는 상태(docker in docker)
+* 컨테이너 3 (컨테이너 2가 생성)
+
+### 순서
+
+1. (컨테이너 1) Jenkins가 빌드한 war 파일을 ssh 를 이용해서 컨테이너 2로 복사
+2. (컨테이너 2) 복사된 war 파일과 Dockerfile 로 도커 이미지 생성
+3. (컨테이너 2) 만들어진 이미지로 컨테이너 3 생성
+
+
+
+## 플러그인 설치
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+* Publish Over SSH 설치
+
+
+
+## SSH Server  설정
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+* Dashboard - Jenkins 관리 - System - Publish over SSH - SSH Servers
+* Name : SSH Server 설정의 이름
+* Hostname : Jenkins 는 컨테이너에서 구동되고 있으므로,  docker-server 컨테이너에 접근하기 위해 Hostname 에 localhost 가 아닌 도커 호스트의 IP를 설정한다.
+  * **WSL 등의 환경에서는 호스트 IP 가 다를 수 있다.** ifconfig 로 확인할 것
+* Username : root
+* Remote Directory : 현재 디렉토리(.)로 지정한다. /root 가 설정된다.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+* Passphrase / Password : root 계정의 비밀번호
+* Port : docker-server 컨테이너의 22 포트를 포워딩 하는 호스트의  10022번 포트로 설정
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+* Test Configuration 버튼을 눌러 테스트 결과 확인
+
+
+
+##
