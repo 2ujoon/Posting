@@ -1,5 +1,5 @@
 ---
-description: Jenkins 빌드 결과물을 로컬이 아닌 다른 서버로의 복사
+description: SSH Server 컨테이너 설정 및 Jenkins 환경설정
 ---
 
 # SSH + Docker 가 설치되어 있는 VM(컨테이너) 사용하기
