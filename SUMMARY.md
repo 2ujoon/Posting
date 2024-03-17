@@ -10,6 +10,8 @@
     * [Jenkins 설치 및 설정](jenkins-ci-cd-pipeline/devops-ci-cd/jenkins-1.md)
     * [(실습) Item(Project) 생성](jenkins-ci-cd-pipeline/devops-ci-cd/item-project/README.md)
       * [실습](jenkins-ci-cd-pipeline/devops-ci-cd/item-project/undefined.md)
+  * [Jenkins 를 이용한 CI / CD 자동화 도구의 사용](jenkins-ci-cd-pipeline/jenkins-ci-cd/README.md)
+    * [CI / CD 를 위한 Git, Maven 설정](jenkins-ci-cd-pipeline/jenkins-ci-cd/ci-cd-git-maven.md)
   * [Appendix](jenkins-ci-cd-pipeline/appendix/README.md)
     * [Docker 설치(Ubuntu 22.04)](jenkins-ci-cd-pipeline/appendix/docker-ubuntu-22.04.md)
     * [Docker 명령어 참고](jenkins-ci-cd-pipeline/appendix/docker.md)

@@ -1,7 +1,5 @@
 # 실습
 
-
-
 ## 1. Item 이름 및 유형 선택
 
 * 이름 : My-First-Project

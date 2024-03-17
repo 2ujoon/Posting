@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/image.png
+cover: ../../.gitbook/assets/image (4).png
 coverY: 0
 ---
 
@@ -7,14 +7,14 @@ coverY: 0
 
 ## 개발 방법론
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>waterfall</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>waterfall</p></figcaption></figure>
 
 ### Waterfall
 
 * 순차적으로 단계별 진행
 * 수시로 변화하는 요구사항을 충족시키기 어려움
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Agile</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Agile</p></figcaption></figure>
 
 ### Agile
 
@@ -23,7 +23,7 @@ coverY: 0
 
 ### 시기별 특징
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p><a href="https://www.oracle.com/kr/cloud/cloud-native/what-is-cloud-native/">https://www.oracle.com/kr/cloud/cloud-native/what-is-cloud-native/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p><a href="https://www.oracle.com/kr/cloud/cloud-native/what-is-cloud-native/">https://www.oracle.com/kr/cloud/cloud-native/what-is-cloud-native/</a></p></figcaption></figure>
 
 * 클라우드 네이티브 아키텍처의 등장
   * DevOps, MSA, 가상화, 클라우드의 보편화가 진행 중
