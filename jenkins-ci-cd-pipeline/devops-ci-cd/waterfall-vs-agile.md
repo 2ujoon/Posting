@@ -14,7 +14,7 @@ coverY: 0
 * 순차적으로 단계별 진행
 * 수시로 변화하는 요구사항을 충족시키기 어려움
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Agile</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Agile</p></figcaption></figure>
 
 ### Agile
 
