@@ -1,3 +1,7 @@
+---
+description: 프로젝트 소스를 가져올 Git repository 설정
+---
+
 # CI / CD 를 위한 Git, Maven 설정
 
 ## Github 플러그인 설정

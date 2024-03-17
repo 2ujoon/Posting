@@ -1,3 +1,7 @@
+---
+description: Item 생성
+---
+
 # (실습) Item(Project) 생성
 
 ## 새로운 Item 생성

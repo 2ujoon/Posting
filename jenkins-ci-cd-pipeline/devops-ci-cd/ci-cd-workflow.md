@@ -1,4 +1,5 @@
 ---
+description: CI / CD 의 대략적인 개요
 cover: ../../.gitbook/assets/image (12) (1).png
 coverY: 0
 ---

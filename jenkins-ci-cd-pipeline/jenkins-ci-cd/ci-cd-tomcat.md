@@ -1,3 +1,7 @@
+---
+description: 빌드 후 도커 호스트에 설치된 톰캣 서버로 빌드 결과물을 배포
+---
+
 # CI / CD 작업을 위한 Tomcat 서버 연동
 
 플러그인 설치
@@ -40,7 +44,7 @@
 <figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 * 톰캣 9.x 버전 선택(Tomcat 9.x Remote)
-* 톰캣 설치 및 사용자 정보가 설정되어 있어야 함 (참고)
+* 톰캣 설치 및 사용자 정보가 설정되어 있어야 함 ([참고](../appendix/tomcat.md))
 
 #### deployer 계정 추가
 

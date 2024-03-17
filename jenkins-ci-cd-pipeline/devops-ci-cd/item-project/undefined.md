@@ -1,3 +1,7 @@
+---
+description: Item 생성 실습
+---
+
 # 실습
 
 ## 1. Item 이름 및 유형 선택

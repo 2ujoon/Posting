@@ -1,3 +1,7 @@
+---
+description: Poll SCM - 새로운 커밋이 있는지 주기적으로 확인 후 빌드할 수 있도록 설정
+---
+
 # PollSCM 설정을 통한 지속적인 파일 업데이트
 
 ## Build periocally 와 Poll SCM

@@ -1,4 +1,5 @@
 ---
+description: Jenkins 소개
 cover: ../../.gitbook/assets/image (15).png
 coverY: 0
 ---

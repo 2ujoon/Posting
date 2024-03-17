@@ -1,3 +1,7 @@
+---
+description: Maven 프로젝트에 대한 Item 생성
+---
+
 # Maven 프로젝트 생성
 
 ## Item 생성

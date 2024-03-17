@@ -1,3 +1,7 @@
+---
+description: docker 를 이용한 jenkins 설치
+---
+
 # Jenkins 설치 및 설정
 
 ## Docker Hub 에서 이미지 pull
