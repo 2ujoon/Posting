@@ -4,7 +4,7 @@ description: 빌드 후 도커 호스트에 설치된 톰캣 서버로 빌드 �
 
 # CI / CD 작업을 위한 Tomcat 서버 연동
 
-플러그인 설치
+## 플러그인 설치
 
 <figure><img src="../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -64,11 +64,11 @@ description: 빌드 후 도커 호스트에 설치된 톰캣 서버로 빌드 �
 
 ### 1. 빌드 후 Console Output 확인
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption><p>Console Output</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption><p>생성된 war</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption><p>톰캣 manager app 화면</p></figcaption></figure>
 
 * 빌드에 성공했다면, 톰캣 경로의 webapps 아래에 패키지 결과물이 존재한다.
   * Jenkins 컨테이너 내의 workspace 에서 톰캣 서버로 복사된 것

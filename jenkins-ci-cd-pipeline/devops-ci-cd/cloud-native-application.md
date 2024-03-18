@@ -1,6 +1,6 @@
 ---
 description: Cloud Native Application 를 구성하는 각 요소에 대한 간략한 설명
-cover: ../../.gitbook/assets/image (4) (1) (1) (1).png
+cover: ../../.gitbook/assets/image (4) (1) (1) (1) (1).png
 coverY: 0
 ---
 
@@ -14,7 +14,7 @@ coverY: 0
 
 ### Cloud Native의 특징
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * CI / CD : 개발된 애플리케이션의 빌드, 테스트, 배포 과정의 자동화
 
@@ -85,10 +85,10 @@ coverY: 0
 
 ### Continuous Delivery / Continuous Deployment
 
-* CI의 결과물을 여러 곳으로배포
+* CI의 결과물을 여러 곳으로 배포
 * Continuous Delivery, 지속적 제공
   * 변경사항이 테스트를 거쳐 리포지토리에 업로드
-  * 이후운영팀이 리포지토리에서 프로덕션 환경으로 배포할 수 있음
+  * 이후 운영팀이 리포지토리에서 프로덕션 환경으로 배포할 수 있음
   * 개발팀과 운영팀 간의 가시성, 커뮤니케이션 문제 등을 해소하는 효과가 있음
   * 최소 노력으로 새 코드를 배포하는 것이 목표
 *   Continuous Deployment, 지속적 배포
