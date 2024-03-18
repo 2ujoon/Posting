@@ -325,4 +325,31 @@ description: 각 명령어의 --help 옵션 출력 내용을 옮겨둠
 
 </details>
 
-##
+<details>
+
+<summary>docker network inspect</summary>
+
+* 선택한 네트워크의 상세 정보를 표시한다.
+* docker network 하위의 커맨드도 있다.
+
+
+
+### 시놉시스
+
+`docker network inspect [OPTIONS] NETWORK [NETWORK...}`
+
+
+
+### 옵션
+
+```
+-f, --format string   Format output using a custom template:
+                      'json':             Print in JSON format
+                      'TEMPLATE':         Print output using the given Go
+                      template.
+                      Refer to https://docs.docker.com/go/formatting/ for
+                      more information about formatting output with templates
+-v, --verbose         Verbose output for diagnostics
+```
+
+</details>
