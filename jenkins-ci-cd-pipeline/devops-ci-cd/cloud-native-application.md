@@ -1,6 +1,6 @@
 ---
 description: Cloud Native Application 를 구성하는 각 요소에 대한 간략한 설명
-cover: ../../.gitbook/assets/image (4) (1) (1) (1) (1).png
+cover: ../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png
 coverY: 0
 ---
 
@@ -14,7 +14,7 @@ coverY: 0
 
 ### Cloud Native의 특징
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * CI / CD : 개발된 애플리케이션의 빌드, 테스트, 배포 과정의 자동화
 
@@ -22,7 +22,7 @@ coverY: 0
 
 ## MSA
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 마이크로서비스 개발
 * Inner Architecture : 비즈니스 로직을 가지고 개발된 서비스
@@ -32,7 +32,7 @@ coverY: 0
 
 ## Container
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 마이크로서비스들이 컨테이너 가상화 기술을 통해 클라우드 환경에 배포됨
 * 다수의 MSA 앱을 실제 서버로 기동하면 리소스 낭비 및 많은 비용이 발생할 수 있음
@@ -67,11 +67,11 @@ coverY: 0
 
 ## CI / CD
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Continuous Integration
 
