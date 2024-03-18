@@ -1,3 +1,7 @@
+---
+description: Ansible Server 기동
+---
+
 # Docker 컨테이너로 Ansible 실행하기
 
 ## Ansible-server 이미지 다운로드
@@ -42,7 +46,7 @@ systemctl start docker
 
 * 버전 확인 : `ansible --version`
 * 클라이언트 정보 확인 : `vi etc/ansible/hosts`
-  * `docker network inspect bridge` : 도커 컨테이너들의 네트워크 정보 확인
+  * [`docker network inspect`](../appendix/docker.md#docker-network-inspect) `bridge` : 도커 컨테이너들의 네트워크 정보 확인
   * 컨테이너의 IP 주소를 그룹에 등록할 수 있다.
 
 
