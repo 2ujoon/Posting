@@ -60,7 +60,7 @@ ssh root@localhost -p 10022
 
 ## 플러그인 설치
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Publish Over SSH 설치
 
@@ -68,7 +68,7 @@ ssh root@localhost -p 10022
 
 ## SSH Server  설정
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Dashboard - Jenkins 관리 - System - Publish over SSH - SSH Servers
 * Name : SSH Server 설정의 이름
@@ -77,7 +77,7 @@ ssh root@localhost -p 10022
 * Username : root
 * Remote Directory : 현재 디렉토리(.)로 지정한다. /root 가 설정된다.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Passphrase / Password : root 계정의 비밀번호
 * Port : docker-server 컨테이너의 22 포트를 포워딩 하는 호스트의  10022번 포트로 설정

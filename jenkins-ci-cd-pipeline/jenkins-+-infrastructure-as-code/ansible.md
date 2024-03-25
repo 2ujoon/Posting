@@ -79,3 +79,27 @@ systemctl status docker
 
 * Ansible 에서 각 컨테이너로 접근 시 매번 패스워드를 입력하기 보다, ansible-server 에서 생성한 키를  각 서버에 복사해 두고 사용한다.
 
+
+
+## 다른 컨테이너로의 ssh 접근
+
+### 일반적인 ssh 접근
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>기본적으로는 패스워드를 요구한다.</p></figcaption></figure>
+
+* 별다른 설정 없이는 클라이언트에 접근하기 위해 패스워드를 요구한다.
+
+
+
+### 키 기반 인증
+
+#### 키 생성
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p><code>ssh-keygen</code> 명령어로 키 생성</p></figcaption></figure>
+
+#### 클라이언트에 공개키 복사
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>더 이상 패스워드를 요구하지 않는다.</p></figcaption></figure>
+
+* `ssh-copy-id` 명령어로 서버의 공개키를 클라이언트에 복사해 키 기반으로 인증한다.
+
