@@ -6,7 +6,7 @@ description: IaC 와 Ansible 의 간략한 개념
 
 ## Infrastructure as Code
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 코드형 인프라
   * 프로그래밍이 가능해진다.
@@ -29,13 +29,13 @@ description: IaC 와 Ansible 의 간략한 개념
 
 ### Before
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 특정 서버에 문제가 발생한 경우 **관리자에 의해 해당 서버를 종료하거나 삭제하고 새 서버를 추가**한다.
 
 ### After
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 서버의 목록, 수행할 작업의 절차 등을 담아 놓은 스크립트를 지정한다.
   * 관리자가 스크립트를 작성하면 추후 문제가 발생했을 때 **해당 스크립트에 따라 자동으로 처리**된다.
@@ -44,7 +44,7 @@ description: IaC 와 Ansible 의 간략한 개념
 
 ## Configuration Management Tools
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Ansible
 
@@ -52,7 +52,7 @@ description: IaC 와 Ansible 의 간략한 개념
 
 <div data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

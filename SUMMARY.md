@@ -24,6 +24,7 @@
   * [Docker 컨테이너로 Ansible 실행하기](jenkins-ci-cd-pipeline/jenkins-+-infrastructure-as-code/docker-ansible.md)
   * [Ansible 설정과 작동 과정](jenkins-ci-cd-pipeline/jenkins-+-infrastructure-as-code/ansible.md)
   * [Ansible 기본 명령어](jenkins-ci-cd-pipeline/jenkins-+-infrastructure-as-code/ansible-1.md)
+  * [Ansible 모듈 사용](jenkins-ci-cd-pipeline/jenkins-+-infrastructure-as-code/ansible-2.md)
 * [Appendix](jenkins-ci-cd-pipeline/appendix/README.md)
   * [Docker 설치(Ubuntu 22.04)](jenkins-ci-cd-pipeline/appendix/docker-ubuntu-22.04.md)
   * [Docker 명령어 참고](jenkins-ci-cd-pipeline/appendix/docker.md)
