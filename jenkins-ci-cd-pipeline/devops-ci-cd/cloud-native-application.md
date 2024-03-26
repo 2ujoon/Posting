@@ -1,6 +1,6 @@
 ---
 description: Cloud Native Application 를 구성하는 각 요소에 대한 간략한 설명
-cover: ../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png
+cover: ../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png
 coverY: 0
 ---
 
@@ -14,7 +14,7 @@ coverY: 0
 
 ### Cloud Native의 특징
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * CI / CD : 개발된 애플리케이션의 빌드, 테스트, 배포 과정의 자동화
 
