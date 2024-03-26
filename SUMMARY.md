@@ -26,6 +26,7 @@
   * [Ansible 기본 명령어](jenkins-ci-cd-pipeline/jenkins-+-infrastructure-as-code/ansible-1.md)
   * [Ansible 모듈 사용](jenkins-ci-cd-pipeline/jenkins-+-infrastructure-as-code/ansible-2.md)
   * [Ansible Playbook 사용하기](jenkins-ci-cd-pipeline/jenkins-+-infrastructure-as-code/ansible-playbook.md)
+  * [Jenkins + Ansible 연동하기](jenkins-ci-cd-pipeline/jenkins-+-infrastructure-as-code/jenkins-+-ansible.md)
 * [Appendix](jenkins-ci-cd-pipeline/appendix/README.md)
   * [Docker 설치(Ubuntu 22.04)](jenkins-ci-cd-pipeline/appendix/docker-ubuntu-22.04.md)
   * [Docker 명령어 참고](jenkins-ci-cd-pipeline/appendix/docker.md)
