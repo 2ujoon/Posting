@@ -8,7 +8,7 @@ description: 프로젝트 소스를 가져올 Git repository 설정
 
 ### Git(Github) 플러그인 설치
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 설치된 플러그인에서 Github 확인 후 없다면 Available plugins 에서 설치
 

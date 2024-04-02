@@ -353,3 +353,66 @@ description: 각 명령어의 --help 옵션 출력 내용을 옮겨둠
 ```
 
 </details>
+
+<details>
+
+<summary>docker tag</summary>
+
+* 도커 이미지명 또는 태그명을 변경한다.
+
+
+
+### 시놉시스
+
+`docker tag SOURCE_IMAGE[:TAG} TARGET_IMAGE[:TAG]`
+
+</details>
+
+<details>
+
+<summary>docker login</summary>
+
+* 도커 레지스트리에 로그인한다.
+* 레지스트리가 명시되지 않은 경우 도커 데몬의 설정값을 기본적으로 사용한다.
+
+
+
+### 시놉시스
+
+`docker login [OPTIONS] SERVER]`
+
+
+
+### 옵션
+
+```
+-p, --password string   Password
+    --password-stdin    Take the password from stdin
+-u, --username string   Username
+```
+
+</details>
+
+<details>
+
+<summary>docker push</summary>
+
+* 도커 레지스트리에 이미지 또는 리포지토리를 업로드 한다.
+
+
+
+### 시놉시스
+
+`docker push [OPTIONS] NAME[:TAG]`
+
+
+
+### 옵션
+
+```
+-a, --all-tags                Push all tagged images in the repository
+    --disable-content-trust   Skip image signing (default true)
+-q, --quiet                   Suppress verbose output
+```
+
+</details>

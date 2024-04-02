@@ -31,9 +31,9 @@ description: 빌드 결과물을 SSH 를 이용해 다른 서버로 복사하는
 
 ## 빌드 및 결과 확인
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Console Output</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Console Output</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>docer-server container 내부</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>docer-server container 내부</p></figcaption></figure>
 
 * Remove prefix 에서 target 을 지정하지 않으면 디렉토리 전체가 복사된다.
   * 정상적으로 지정할 경우 Remote directory 에 hello-world.war 만 존재한다.
@@ -44,7 +44,7 @@ description: 빌드 결과물을 SSH 를 이용해 다른 서버로 복사하는
 
 ### Dockerfile 확인
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * tomcat 9.0 이미지를 받아 베이스 이미지로 사용하겠다.
 * ./hello-world.war 파일을 /usr/local/tomcat/webapps 에 복사하겠다.
