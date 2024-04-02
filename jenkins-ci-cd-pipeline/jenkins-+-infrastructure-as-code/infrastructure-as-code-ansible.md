@@ -29,7 +29,7 @@ description: IaC 와 Ansible 의 간략한 개념
 
 ### Before
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 특정 서버에 문제가 발생한 경우 **관리자에 의해 해당 서버를 종료하거나 삭제하고 새 서버를 추가**한다.
 
@@ -52,7 +52,7 @@ description: IaC 와 Ansible 의 간략한 개념
 
 <div data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

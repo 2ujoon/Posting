@@ -1,5 +1,5 @@
 ---
-description: playbook 으로 docker hub 에 이미지 업로드
+description: playbook 으로 docker hub 에 이미지 업로드 / 해당 이미지로 컨테이너 생성
 ---
 
 # Ansible 을 이용한 Docker 이미지 관리
@@ -8,7 +8,7 @@ description: playbook 으로 docker hub 에 이미지 업로드
 
 ### 이미지에 계정명 추가
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>docker tag</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>docker tag</p></figcaption></figure>
 
 * [`docker tag`](../appendix/docker.md#docker-tag) `이미지명[:태그명] 변경할이미지명[:태그명]` 으로 이미지에 계정명 추가
   * image id 는 동일하면서 이름만 다른 도커 이미지가 생성됨(wjleefusionsoft/cicd-project-ansible)
@@ -25,7 +25,7 @@ description: playbook 으로 docker hub 에 이미지 업로드
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>docker push</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>docker hub </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>docker hub </p></figcaption></figure>
 
 * `docker push 이미지명` 으로 이미지를 업로드 한다.
 * 레지스트리를 명시하지 않았으므로, 도커 허브에 이미지가 업로드 된다.
@@ -36,7 +36,7 @@ description: playbook 으로 docker hub 에 이미지 업로드
 
 ### playbook 작성
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>create-cicd-devops-image.yml</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>create-cicd-devops-image.yml</p></figcaption></figure>
 
 * 도커 이미지를 생성하고 Docker hub 에 업로드 후 해당 이미지를 삭제한다.
 

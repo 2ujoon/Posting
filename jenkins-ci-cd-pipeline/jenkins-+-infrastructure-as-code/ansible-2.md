@@ -18,7 +18,7 @@ description: ansible 모듈(명령어) 사용 테스트
 * 모든 그룹에 ping 이라는 모듈을 실행한다.
 * 두 클라이언트에서 성공했음을 알 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>docker-server 컨테이너 종료 후 시도 시</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>docker-server 컨테이너 종료 후 시도 시</p></figcaption></figure>
 
 * 실패할 경우 결과와 함께 오류 메시지를 출력한다.
 
@@ -28,7 +28,7 @@ description: ansible 모듈(명령어) 사용 테스트
 
 * `ansible all -m shell -a "free -h"`
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 모든 그룹에 shell 이라는 모듈을실행하고, "free -h" 를 인자로 넘긴다.
 * 각 클라이언트에서 `free -h` 명령어가 실행된 결과를 반환받아 표시한다.
@@ -40,7 +40,7 @@ description: ansible 모듈(명령어) 사용 테스트
 * `echo "Hey there" >> test.txt` : 테스트용 파일 생성
 * `ansible all -m copy -a "src=./test.txt dest=/tmp"`
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>실행 결과</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>실행 결과</p></figcaption></figure>
 
 * 모든 그룹에 copy 모듈을 실행하고, "src=./test.txt dest=/tmp" 를 인자로 넘긴다.
   * src : 옮길 파일

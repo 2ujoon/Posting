@@ -42,7 +42,7 @@
 
 ### 결과
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * playbook 에서 명시한 task 가 정상적으로 처리되었다.
 * _**멱등성을 보장**_하므로, 같은 playbook 을 반복적으로 실행하여도 결과는 동일하다.
@@ -72,11 +72,11 @@
 
 ### 실행
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 결과
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * sample.txt 가 정상적으로 복사되었다.
 
