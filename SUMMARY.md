@@ -30,6 +30,8 @@
   * [실습) Jenkins + Ansible Playbook 사용하기](jenkins-ci-cd-pipeline/jenkins-+-infrastructure-as-code/jenkins-+-ansible-playbook.md)
   * [Ansible 을 이용한 Docker 이미지 관리](jenkins-ci-cd-pipeline/jenkins-+-infrastructure-as-code/ansible-docker.md)
   * [실습) Ansible Playbook 으로 Docker 컨테이너 생성하기](jenkins-ci-cd-pipeline/jenkins-+-infrastructure-as-code/ansible-playbook-docker.md)
+* [Jenkins + Ansible + Kubernetes 와의 연동](jenkins-ci-cd-pipeline/jenkins-+-ansible-+-kubernetes/README.md)
+  * [Kubernetes 소개](jenkins-ci-cd-pipeline/jenkins-+-ansible-+-kubernetes/kubernetes.md)
 * [Appendix](jenkins-ci-cd-pipeline/appendix/README.md)
   * [Docker 설치(Ubuntu 22.04)](jenkins-ci-cd-pipeline/appendix/docker-ubuntu-22.04.md)
   * [Docker 명령어 참고](jenkins-ci-cd-pipeline/appendix/docker.md)
